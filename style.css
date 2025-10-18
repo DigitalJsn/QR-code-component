@@ -1,0 +1,84 @@
+/* ---- CSS Variables ---- */
+:root {
+    --White: hsl(0, 0%, 100%);
+    --Slate-300: hsl(212, 45%, 89%);
+    --Slate-500: hsl(216, 15%, 48%);
+    --Slate-900: hsl(218, 44%, 22%);
+
+/* --FONTS-- */
+    --Outfit: "Outfit", sans-serif;
+
+}
+
+
+/* ---- CSS Reset ---- */
+*, 
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    width: 288px;
+    height: 288px;
+    padding: 0;
+    margin: 0px;
+    border-radius: 10px;
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: var(--Slate-300);
+
+}
+
+.qr-container {
+    padding: 0px 16px 40px 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 320px;
+    height: 499px;
+    border-radius: 20px;
+}
+
+.qr-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 288px;
+    height: 131px;
+}
+
+h1 {
+    width: 256px;
+    height: 52px;
+    font-family: var(--Outfit);
+    font-size: 22px;
+    font-weight: 700;
+    text-align: center;
+    margin: 24px 24px 16px 24px;
+    color: var(--Slate-900);
+}
+
+p {
+    width: 256px;
+    height: 63px;
+    font-family: var(--Outfit);
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    margin: 0 24px 0 24px;
+    color: var(--Slate-500);
+}
