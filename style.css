@@ -7,7 +7,6 @@
 
 /* --FONTS-- */
     --Outfit: "Outfit", sans-serif;
-
 }
 
 
@@ -41,7 +40,7 @@ body {
 }
 
 .qr-container {
-    padding: 0px 16px 40px 16px;
+    padding: 16px 16px 40px 16px;
     display: flex;
     flex-direction: column;
     align-items: center;
